@@ -1,0 +1,14 @@
+let fifo = [];
+fifo.push("keyboard");
+fifo.push("mouse");
+fifo.push("printer");
+fifo.push("monitor");
+document.write(fifo);
+document.write("<br>");
+document.write(fifo.shift()); 
+document.write("<br>");
+document.write(fifo.shift()); 
+document.write("<br>");
+document.write(fifo.shift());
+document.write("<br>");
+document.write(fifo.shift());

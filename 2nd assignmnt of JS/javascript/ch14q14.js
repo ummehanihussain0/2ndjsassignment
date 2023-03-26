@@ -1,0 +1,14 @@
+let num = [];
+num.push("keyboard");
+num.push("mouse");
+num.push("printer");
+num.push("monitor");
+document.write(num);
+document.write("<br>");
+document.write(num.pop()); 
+document.write("<br>");
+document.write(num.pop());
+document.write("<br>");
+document.write(num.pop()); 
+document.write("<br>");
+document.write(num.pop());
